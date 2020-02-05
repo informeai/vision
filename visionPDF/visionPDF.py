@@ -246,23 +246,7 @@ class PDFWriter:
         self.writer_pdf.save()
         
 
-if __name__ == '__main__':
 
-
-
-    pdfW = PDFWriter('teste.pdf')
-    pdfW.addText('ola teste', 300, 400,font='Courier',size_letter=50)
-    pdfW.addText('pagina 1', 500, 500, font='Helvetica',size_letter=34)
-    pdfW.addText('Outro texto', 200, 600, font='Times-Italic',size_letter=30, color='#ffab5f')
-    pdfW.save_page()
-    pdfW.addText('Pagina 2', 300,300,font='Helvetica-Bold', size_letter= 39, color='#bbff56')
-    pdfW.save_page()
-    pdfW.addText('Pagina 3', 100, 100)
-    pdfW.addImage('foto.jpg',300,200,200,200)
-    pdfW.addCircle(400,500,30,color='#ff8945')
-    pdfW.addRectangle(200,300,200,200,radius=3)
-    pdfW.save_page()
-    pdfW.close()
     
     
 
