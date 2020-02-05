@@ -1,0 +1,4 @@
+build/*
+dist/*
+visionPDF.egg-info/*
+visionPDF/__pycache__/*

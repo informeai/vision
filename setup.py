@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.0.1",
     author="Wellington Gadelha",
     author_email="contato.informeai@gmail.com",
-    description="Módulo que ler,traduz e escreve arquivos PDF.",
+    description="Modulo que ler,traduz e escreve arquivos PDF.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/informeai/vision",
